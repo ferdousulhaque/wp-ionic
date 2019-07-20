@@ -11,6 +11,7 @@ import { environment } from '../../environments';
 @Injectable()
 export class PostsProvider {
   postsUrl = environment.site_url + environment.posts_uri;
+  featuredPostsUrl = environment.site_url + environment.featured_posts_uri;
 
   constructor(public http: HttpClient) {
     
@@ -18,6 +19,10 @@ export class PostsProvider {
 
   getLatestPosts(){
     return this.http.get(this.postsUrl);
+  }
+
+  getFeaturedPosts(){
+    return this.http.get(this.featuredPostsUrl);
   }
 
 }

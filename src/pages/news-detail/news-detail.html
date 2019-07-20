@@ -13,15 +13,14 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
   <ion-card>
+    <img src="{{post._embedded['wp:featuredmedia'][0].source_url}}" />
     <ion-card-content>
       <ion-card-title>
         {{post.title.rendered}}
         </ion-card-title>
-      <p>
-        {{post.content.rendered}}
-      </p>
+        <div [innerHTML]="post.content.rendered"></div>
     </ion-card-content>
   </ion-card>
 </ion-content>

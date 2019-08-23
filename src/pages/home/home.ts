@@ -11,7 +11,9 @@ import { LoadingController } from 'ionic-angular';
 export class HomePage {
   posts;
 
-  constructor(public navCtrl: NavController, private postsCtrl: PostsProvider, private loadingCtrl: LoadingController) {
+  constructor(public navCtrl: NavController, 
+              private postsCtrl: PostsProvider, 
+              private loadingCtrl: LoadingController) {
    
   }
 

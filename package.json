@@ -1,8 +1,8 @@
 {
-  "name": "sobujDesh",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "sobujdesh",
+  "version": "1.0.1",
+  "author": "Vromor Digital Team",
+  "homepage": "http://vromordigital.com/",
   "private": true,
   "scripts": {
     "start": "ionic-app-scripts serve",
@@ -25,7 +25,7 @@
     "@ionic-native/status-bar": "~4.18.0",
     "@ionic/pro": "2.0.4",
     "@ionic/storage": "2.2.0",
-    "cordova-android": "7.0.0",
+    "cordova-android": "^8.1.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.1.3",
     "cordova-plugin-ionic-webview": "^2.3.1",
